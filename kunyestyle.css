@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@1,300&family=Teko&display=swap');
+
+body{
+    font-size: 13px;
+    font-family: 'DM-Mono', sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom,#fff,#d3d3d3);
+    line-height: 2;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(to top,transparent,#222,#cc181e);
+    z-index: 2;
+}
+.ayir{
+    height: 38px;
+}
+.text{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 80px;
+}
+.cont{
+    width: 64%;
+    line-height: 2;
+    margin-top: 50px;
+}
+aside{
+    width: 88%;
+    display: block;
+    margin: 0 auto;
+}
+.main{
+    border-bottom: 1px solid;
+}
+.main a{
+    font-family: 'Teko';
+    font-size: 30px;
+    margin-left: 25px;
+    text-shadow: 2px 4px 5px #929292;
+}
+.news a{
+    font-family: 'Teko';
+    font-size: 40px;
+    text-shadow: 2px 4px 5px #929292;
+}
+.ana a{
+    font-family: 'DM-Mono';
+    font-size: 18px;
+}
+side{
+    width: 30%;
+    display: block;
+    margin: 1%;
+    float: left;
+}
+side >.container >.third {
+    background: #;
+    display: block;
+    margin: 15%;
+    margin-top: -400px;
+    float: left;
+    border: none;
+}
+*/.can a{
+    text-align: center;
+    border-bottom: 4px solid #cc181e;
+    border-left: 1px solid #cc181e;
+    border-right: 2px solid #cc181e;
+    border-top: 1px solid #cc181e;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 2px 4px 5px #929292;
+    font-family: 'Teko';
+    color: black;
+}
+\*
+.can a:hover{
+    font-size: 23px;
+    text-shadow: 2px 4px 5px #929292, 0px 0px 15px #cc181e;    
+}
+.first ul li ul a{
+    font-size: 20px;
+    font-family: 'Teko';
+    text-decoration: none;
+    color: black;
+    
+}
+.first ul li ul a:hover{
+    color: #cc181e;
+}
+.first .hinfo a{
+    font-size: 13px;
+    color: #929292;
+    font-family: 'DM-Mono';
+}
+.first .hinfo a:hover{
+    color: #929292;
+}
+.cana a{
+    text-align: center;
+    border-bottom: 4px solid #cc181e;
+    border-left: 1px solid #cc181e;
+    border-right: 2px solid #cc181e;
+    border-top: 1px solid #cc181e;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 2px 4px 5px #929292;
+    font-family: 'Teko';
+    color: black;
+}
+.cana a:hover{
+    font-size: 23px;
+    text-shadow: 2px 4px 5px #929292, 0px 0px 15px #cc181e;    
+}
+.second ul li ul a{ 
+    font-size: 20px;
+    font-family: 'Teko';
+    text-decoration: none;
+    color: black;
+}
+.second ul li ul a:hover{
+    color: #cc181e;
+}
+.second .hinfo a{
+    font-size: 13px;
+    color: #929292;
+    font-family: 'DM-Mono';
+}
+.second .hinfo a:hover{
+    color: #929292;
+}
+.third >ul >li >p { 
+    background: linear-gradient(transparent,#929292);
+    color: black;
+    font-family: 'DM-Mono';
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1px;
+    width: 400px;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-bottom-color: #222; 
+    text-shadow: 2px 4px 5px #fff;
+}
+.third ul li ul a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #222;
+    font-size: 17px;
+    font-family: 'DM-Mono';
+    height: 30px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-bottom-color: #222;
+    border-top: 1px solid;
+    border-top-color: #222;
+    margin-top: 5px;
+    text-shadow: 2px 4px 5px #929292;
+    background: linear-gradient(#929292,transparent);
+    transition-duration: 0.6s;
+}
+.third ul li ul a:hover{
+    color: #cc181e;
+    border-bottom-color: #cc181e;
+    border-top-color: #cc181e;
+    background: linear-gradient(to left,#cc181e,#d3d3d3,transparent,#d3d3d3,#cc181e);
+    text-shadow: 2px 4px 5px #ee9797;
+}
+.thirdt >ul >li >p{
+    background: linear-gradient(transparent,#929292);
+    color: black;
+    font-family: 'DM-Mono';
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1px;
+    width: 400px;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-bottom-color: #222; 
+    text-shadow: 2px 4px 5px #fff;
+}
+.thirdt ul li ul a{ 
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: #222;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: 'DM-Mono';
+    height: 70px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-bottom-color: #222;
+    border-top: 1px solid;
+    border-top-color: #222;
+    margin-top: 15px;
+    text-shadow: 2px 4px 5px #929292;transition-duration: 0.3s;
+    background: linear-gradient(#929292,transparent);
+} 
+.thirdt ul li ul a:hover{
+    color: #cc181e;
+    border-bottom: 4px solid;
+    border-bottom-color: #cc181e;
+    border-top-color: #cc181e;
+    background: linear-gradient(to top,#e1d5d5,#d3d3d3,transparent);
+    text-shadow: 2px 4px 5px #ee9797;
+}
+.resim{
+    background: url(news.jpg);
+    height: 350px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 45px;
+    text-shadow: 6px 9px 6px black, 0px 0px 30px #fff;
+    transition: 1100ms;
+    color: #fff;
+    font-family: 'Teko';
+}
+h1 span{
+    font-size: 85px;
+    color: #cc181e;
+    text-shadow: 6px 9px 6px black, 0px 0px 30px #cc181e;
+    transition: 1200ms;
+    
+}
+h3{
+    font-size: 20px;
+    text-shadow: 5px 6px 3px black;
+    font-family: 'teko';
+}
+.logo{
+    display: inline-block;
+    float: left;
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+}
+.logo1{
+    display: inline-block;
+    float: right;
+}
+.logo1 img{
+    height: 70px;
+    width: 70px;
+}
+.logo2{
+    display: inline-block;
+    float: none;
+}
+.logo2 img{
+    height: 70px;
+    width: 70px;
+}
+.search{
+    display: inline-block;
+    float: right;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul.menu{
+    background: linear-gradient(to right,black,black,#cc181e,black);
+    height:65px;
+}
+ul.menu >li{
+    float: left;
+    position: relative;
+}
+ul.menu >li >a{
+    display: block;
+    font-size: 20px;
+    color: #cc181e;
+    padding: 0 15px;
+    line-height: 65px;
+    border-right: 1px solid rgba(0,0,0,.1);
+    border-right-color: #cc181e;
+    text-shadow: 2px 3px 2px #222;
+    font-family: 'teko';
+    margin-left: 70px;
+        
+}
+ul.menu >li >a:hover{
+    color: red;
+    font-size: 23px;
+    border-right: 3px solid;
+}
+ul.menu ul{
+    background: black;
+    width: 150px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    opacity: 0;
+    transition: 500ms all;
+    visibility: hidden;
+}
+ul.menu ul li a{
+    display: block;
+    padding: 7px 12px;
+    color: #cc181e;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-right: 1px solid;
+    border-bottom-color: #cc181e;
+    z-index: 2;
+}
+ul.menu ul li a:hover{
+    color: red;
+    font-size: 18px;
+    border-bottom: 2px solid;
+}
+ul.menu >li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 65px;
+}
+.isearch{
+    padding: 8px 8px 16px;
+    border: 2;
+    background: linear-gradient(to left,transparent,black,black);
+    border-top: 1px solid #929292;
+    border-bottom: 2px solid #929292;
+    border-left: 2px solid #fff;
+    border-right: 1px solid #929292;
+    width: 70px;
+    color: #fff;
+    outline: 0;
+    font-size: 14px;
+    font-family: 'DM-Mono';
+    margin-top: 1px;
+    transition-duration: 0.6s;
+    transition-property: width,color;
+    text-shadow: 3px 0px 10px #222;
+}
+.isearch:focus{
+    width: 250px;
+    border-left: 2px solid #fff;
+    border-bottom:2px solid #929292;
+    border-top: 1px solid #929292;
+    border-right: 1px solid #929292;
+    background: linear-gradient(to left,transparent,black,black);
+}
+.iksearch{
+    padding: 8px 8px 16px;
+    border: 2;
+    background: linear-gradient(to right,transparent,transparent,transparent,#cc181e);
+    border: 1px solid #cc181e;
+    width: 150px;
+    color: #fff;
+    outline: 0;
+    font-size: 14px;
+    font-family: 'DM-Mono';
+    margin-top: 1px;
+    transition-duration: 0.6s;
+    transition-property: width,color;
+    text-shadow: 2px 4px 3px #d3d3d3;
+    
+}
+.iksearch:focus{
+    width: 380px;
+    border-bottom: 1px solid #929292;
+    border-right: 1px solid #929292;
+    background: linear-gradient(to right,transparent,#d3d3d3,#cc181e);
+    text-shadow: 30px 2px 3px #d3d3d3;
+}
+
+footer{
+    width: 100%;
+    margin: 20px auto 0 auto;
+    padding: 25px 0 25px 0;
+    background: linear-gradient(to bottom,black,#222,#434343,#222,black);
+    color: #fff;
+}
+h2.title{
+    font-size: 25px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+    font-family: 'Teko';
+    text-shadow: 2px
+}
+span{
+    display: inline-block;
+    position: relative;
+}
+.line:before, .line:after{
+    content: '';
+    color: #fff;
+    border: 1px solid #cc181e;
+    position: absolute;
+    right: 100%;
+    margin-right: 10px;
+    top: 9px;
+    width: 20px;
+}
+.line:before{
+    left: 100%;
+    margin-left: 10px;
+}
+.clear{
+    clear: both;
+}
+.column-50{
+    width: 49%;
+    margin-right: %1;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
